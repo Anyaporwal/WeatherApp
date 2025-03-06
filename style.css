@@ -1,0 +1,157 @@
+ *{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body{
+ height: 100%;
+ width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    background-image: url("https://images.stockcake.com/public/f/9/9/f99415fc-5cf2-4413-90a0-c89311420a9d_large/sunrise-over-mountains-stockcake.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+.weather-box{
+    
+    border-radius: 10px;
+    border: 2px solid ;
+    border-color: rgb(187, 223, 255);
+    background-color: rgb(54, 111, 161);
+    margin-bottom: 30px;
+    
+}
+
+or{
+    margin-left:8px ;
+    margin-right:8px ;
+    font-size:20px;
+
+}
+
+sel{
+    font-size:18px;
+    margin-right:8px ;
+
+}
+#sts{
+    background-color: rgb(187, 223, 255);
+    border-radius: 8px;
+
+}
+
+#city{
+    height: 30px;
+    width: 132px; 
+    background-color: rgb(187, 223, 255);
+    border-radius: 8px;
+
+}
+
+input{
+    margin: 5px;
+    padding: 8px;
+    height: 30px;
+    width: 150px; 
+    background-color: rgb(187, 223, 255);
+    border-radius: 8px;
+}
+
+.weather-box ion-icon{
+    color: black ;
+    font-weight: bold;
+    font-size: larger;
+    height: 80%;
+    width: 80%;
+}
+
+
+.twodown ion-icon{
+    margin: 5px;
+    height: 80px;
+    width: 50px;
+}
+
+.downweatherbox img{
+    height: 180px;
+    width: 200px;
+}
+
+form{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input::placeholder{
+    font-size:16px;
+    color: black;
+}
+#search{
+    margin-left: 15px;
+    border-radius: 12px;
+    height: 30px;
+    width: 30px;
+    background-color:rgb(187, 223, 255);
+
+}
+
+.downweatherbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+.twodown{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+
+#Humidity{
+    margin-right: 180px;
+
+}
+
+
+.temptext{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nextline{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+feelslike{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+select{
+    font-size: 16px;
+    padding: 4px;
+}

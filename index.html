@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>      
+</head>
+<body>
+
+    <script src="city.js"></script>
+    <div class="main">
+        <div class="weather-box">
+            <form>
+                <input name="city" type="text" placeholder="Enter City Name" >
+                    <b><or>Or</or></b>
+
+        <select onchange="print_city('city', this.selectedIndex);" id="sts" name ="stt"></select>
+        <select id ="city"></select>
+        <script language="javascript">print_state("sts");</script>
+        
+        <button id="search"><ion-icon name="search-outline" ></ion-icon></button>
+
+                <div class="tohide"> 
+                <div class="downweatherbox">
+                    <div class="weatherimg">
+                    <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather icon">
+                    </div>
+
+                </div>
+                    
+                <div class="temptext">
+                    
+                   <div class =tempval>0</div> °C
+                    <br>
+
+                    </div>
+                    <feelslike>Feels Like 0 °C</feelslike>
+
+                    <div class="nextline">
+                        <br>
+                    <skyinfo><br>Clear</skyinfo>
+                    <br>                    
+                </div>
+                <br>                      
+                
+                <div class="twodown">
+                    <ion-icon name="water"></ion-icon>
+                    <div id="Humidity">
+                        <humidity>0</humidity>%
+                    <h4>Humidity</h4>
+                </div>
+                    <ion-icon name="logo-soundcloud"></ion-icon>         
+                    <div id="WindSpeed">                      
+                         <speed>0  </speed> m/s<br><h4>WindSpeed</h4>
+                    </div>
+                </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+  
+</body>
+</html>
