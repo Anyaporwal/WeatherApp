@@ -78,6 +78,6 @@ To use this app, you'll need an API key from OpenWeatherMap:
 
 ## 🙌 Let’s Connect\!
 
-If you found this project helpful, feel free to ⭐ the repo and follow me for more updates!
+If you found this project helpful, feel free to ⭐ the repo
 
 -----
